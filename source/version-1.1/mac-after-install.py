@@ -567,7 +567,6 @@ def on_install_button_active(button, model, selectcount):
             except:
               debugPrint("[Warning] Could not unmount %s" % devicePath )
               appendToLog("[Warning] Could not unmount %s" % devicePath )
- 
 
           # Delete zip extra folders if present
           if os.path.exists(outFileTmp):
@@ -836,7 +835,6 @@ def renderMainWindow():
     installButtonTxt='Install'
     installButton = Button(bottomFrame, text=installButtonTxt, command=on_install_thread )
     installButton.grid(row=0, column=5, columnspan=1, pady=10, padx=5)
-
    
     # Middle Frame RENDER LAST
     # Call VerticalScrolledFrame to do the frame + grid + scrollbar magic
@@ -1185,7 +1183,6 @@ if __name__ == "__main__":
       versionList.append(versionItem)
       # Build Progress blank array
       progressBox.append(progressValue)
-
       # Build Icon Path mod array
       iconPathList.append(iconPathMod)
       

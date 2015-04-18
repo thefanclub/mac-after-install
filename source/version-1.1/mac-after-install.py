@@ -764,9 +764,6 @@ def renderStartupSplash():
     logoLabel.grid(column=0, row=0)
     splashLabel.grid(column=0, row=1, columnspan=1)
     splashProgressBar.grid(column=0, row=2)
-
-    # Show Window
-    #splashWindow.mainloop()
     
 
 def renderMainWindow():
@@ -819,7 +816,6 @@ def renderMainWindow():
     headerProgressLabel.grid(row=2, column=0, columnspan=5, pady=(0,10))
 
     headerSeparator = Separator(topFrame, orient='horizontal')
-    #headerSeparator.grid(row=3, column=0, columnspan=5, pady=5, sticky='ew')
     headerSeparator.grid(row=3, column=0, columnspan=5, pady=5)
     
     # Bottom Frame
@@ -880,9 +876,7 @@ def renderMainWindow():
         itemDescription[i].grid(row=i+offset, column=3)
         itemProgress[i].grid(row=i+offset, column=4)
         itemIcon[i].grid(row=i+offset, column=5, padx=(5,10))
-         
-        refreshGui(mainWindow)
-  
+           
     # Main display rendered
     appendToLog('[Notice] Main display rendered')
     

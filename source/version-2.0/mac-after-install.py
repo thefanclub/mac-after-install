@@ -841,7 +841,7 @@ def on_install_button_active(button, model, selectcount):
     installStatus = 'complete'
     # Remove Cancel Button 
 
-    cancelButton.configure(state=DISABLED)
+    cancelButton.destroy()
     # Activate Install/Done button and menus
     installButton.configure(state=NORMAL)
     #menuControl('normal')

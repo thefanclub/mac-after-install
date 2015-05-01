@@ -10,6 +10,7 @@ Automated software install tool for OS X
 - Create backup DMG of installed applications
 - Auto Updated list of selected default applications 
 
+
 The application will install the latest versions of all software listed below as well as inform you of available updates.
 
 <h2>Default Software Selection</h2>

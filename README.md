@@ -1,5 +1,5 @@
 # Mac After Install
-Automated software install tool for OS X
+<strong>Automated software install tool for OS X</strong>
 
 <h2>Features</h2>
 - Automated batch download and installation of software

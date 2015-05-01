@@ -501,9 +501,10 @@ def on_install_button_active(button, model, selectcount):
     # Count items
     itemCount = len(titleList)
 
-    # Disable Checkboxes
+    # Disable Checkboxes and Check all
     for listItem in range(itemCount):
       itemCheckBox[listItem].configure(state=DISABLED) 
+    headerCheckAll.configure(state=DISABLED)
         
     # START installing apps one by one 
 
@@ -1207,6 +1208,8 @@ def uninstallSoftwareItems():
     # Disable buttons
     installButton.configure(state=DISABLED)
     cancelButton.configure(state=DISABLED)
+    headerCheckAll.configure(state=DISABLED)
+
     # Disable menu items during install
     menuControl('disabled')
 
@@ -1305,6 +1308,7 @@ def uninstallSoftwareItems():
     # Enable buttons
     installButton.configure(state=NORMAL)
     cancelButton.configure(state=NORMAL)
+    headerCheckAll.configure(state=NORMAL)
     # Enable menu items 
     menuControl('normal')
     refreshGui(mainWindow)
@@ -1339,7 +1343,7 @@ def on_uninstall_software():
       else:
         itemTitle[listItem].configure(foreground='#000000')
         itemDescription[listItem].configure(foreground='#555555')
-    # Set Select All Checkbox
+    # Set De-Select All Checkbox
     headerCheckAllState.set(0)
     # Set icons and text according to state
     on_cell_toggle()
@@ -1773,6 +1777,7 @@ def renderMainWindow():
     global headerProgress
     global headerProgPercent
     global headerProgLabelTxt
+    global headerCheckAll
     global headerCheckAllState
     global itemProgressPercent
     global installButtonTxt
@@ -2052,7 +2057,7 @@ def checkInstall(software):
 if __name__ == "__main__":
   
   # Vars
-  verboseDebug = True
+  verboseDebug = False
  
   # Main Env Vars
   appName = 'Mac After Install'

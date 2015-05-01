@@ -1,5 +1,14 @@
 # Mac After Install
-Automated installation of some of the best open source and free software on Mac OS X
+Automated software install tool for OS X
+
+<h2>Features</h2>
+- Automated batch download and installation of software
+- Easy uninstall of any and all software installed
+- Create custom lists of software to install
+- Export software installation lists to share
+- Import software installation lists 
+- Create backup DMG of installed applications
+- Auto Updated list of selected default applications 
 
 The application will install the latest versions of all software listed below as well as inform you of available updates.
 

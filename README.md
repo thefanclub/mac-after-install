@@ -12,7 +12,7 @@ Automated software install tool for OS X
 
 The application will install the latest versions of all software listed below as well as inform you of available updates.
 
-<h2>Extra Software Installed</h2>
+<h2>Default Software Selection</h2>
 - Google Chrome 
 - Firefox
 - Tor Browser 

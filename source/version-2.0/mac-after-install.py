@@ -1032,11 +1032,6 @@ def renderAboutDialog():
     # Create Add Software window
     thisYear = datetime.datetime.now().strftime("%Y")
 
-    # Check if open already
-    if aboutWindow :
-      aboutWindow.lift()
-      return
-
     aboutWindow = Toplevel()
     aboutWindow.title( 'About ' )
     aboutWindow.configure(background=defaultColor)
@@ -1596,11 +1591,6 @@ def on_add_software(item=''):
 def on_show_log():
     global showLogWindow
 
-    # Check if open already
-    if showLogWindow :
-      showLogWindow.lift()
-      return
-
     # Create Add Software window   
     showLogWindow = Toplevel()
     showLogWindow.title( appName+' - Log' )
@@ -2109,8 +2099,6 @@ if __name__ == "__main__":
   listHasChanged = False
   checkItemOldState = []  
   addSoftwareWindow = ''
-  showLogWindow = ''
-  aboutWindow = ''
 
   # Set Application Title
   changeApplicationName(appName)
@@ -2309,7 +2297,7 @@ if __name__ == "__main__":
  
   # Render Main Window
   renderMainWindow()
-
+  mainWindow.lift()
   # Start Mainwindow loop  
   mainWindow.mainloop()
 

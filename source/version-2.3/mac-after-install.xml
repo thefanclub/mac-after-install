@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<MacAfterInstall>
+	<Software>
+		<Item>
+			<Title>Google Chrome</Title>
+			<Description>Browser</Description>
+			<AppFile>Google Chrome.app</AppFile>
+			<URL>https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg</URL>
+			<Version>45</Version>
+		</Item>
+		<Item>
+			<Title>Firefox</Title>
+			<Description>Browser</Description>
+			<AppFile>Firefox.app</AppFile>
+			<URL>https://download-installer.cdn.mozilla.net/pub/firefox/releases/41.0.1/mac/en-US/Firefox%2041.0.1.dmg</URL>
+			<Version>41.0.1</Version>
+		</Item>
+		<Item>
+			<Title>Tor Browser</Title>
+			<Description>Anonymous Browsing</Description>
+			<AppFile>TorBrowser.app</AppFile>
+			<URL>https://www.torproject.org/dist/torbrowser/5.5a3/TorBrowser-5.5a3-osx64_en-US.dmg</URL>
+			<Version>5.5 a3</Version>
+		</Item>
+		<Item>
+			<Title>Thunderbird</Title>
+			<Description>eMail Client</Description>
+			<AppFile>Thunderbird.app</AppFile>
+			<URL>http://download-installer.cdn.mozilla.net/pub/thunderbird/releases/38.3.0/mac/en-US/Thunderbird%2038.3.0.dmg</URL>
+			<Version>38.3.0</Version>
+		</Item>
+		<Item>
+			<Title>Vienna</Title>
+			<Description>RSS Reader</Description>
+			<AppFile>Vienna.app</AppFile>
+			<URL>http://tenet.dl.sourceforge.net/project/vienna-rss/ReleasedVersions/3.0.4/Vienna3.0.4.tgz</URL>
+			<Version>3.0.4</Version>
+		</Item>
+		<Item>
+			<Title>Telegram</Title>
+			<Description>Private Messenger</Description>
+			<AppFile>Telegram.app</AppFile>
+			<URL>https://updates.tdesktop.com/tmac/tsetup.0.9.2.dmg</URL>
+			<Version>0.9.2</Version>
+		</Item>
+		<Item>
+			<Title>Skype</Title>
+			<Description>Instant Messenger</Description>
+			<AppFile>Skype.app</AppFile>
+			<URL>http://download.skype.com/macosx/f599b222161855aea46c76e8837c25df/Skype_7.13.428.dmg</URL>
+			<Version>7.13</Version>
+		</Item>
+		<Item>
+			<Title>Jitsi</Title>
+			<Description>Instant Messenger</Description>
+			<AppFile>Jitsi.app</AppFile>
+			<URL>https://download.jitsi.org/jitsi/macosx/jitsi-latest.dmg</URL>
+			<Version>2.8.5</Version>
+		</Item>
+		<Item>
+			<Title>Adium</Title>
+			<Description>Instant Messenger</Description>
+			<AppFile>Adium.app</AppFile>
+			<URL>http://liquidtelecom.dl.sourceforge.net/project/adium/Adium_1.5.10.dmg</URL>
+			<Version>1.5.10</Version>
+		</Item>
+		<Item>
+			<Title>LibreOffice</Title>
+			<Description>Office Suite</Description>
+			<AppFile>LibreOffice.app</AppFile>
+			<URL>http://tdf.saix.net/libreoffice/stable/5.0.2/mac/x86_64/LibreOffice_5.0.2_MacOS_x86-64.dmg</URL>
+			<Version>5.0.2</Version>
+		</Item>
+		<Item>
+			<Title>Scribus</Title>
+			<Description>Desktop Publishing</Description>
+			<AppFile>Scribus.app</AppFile>
+			<URL>http://liquidtelecom.dl.sourceforge.net/project/scribus/scribus/1.4.5/scribus-1.4.5-r2.dmg</URL>
+			<Version>1.4.5</Version>
+		</Item>
+		<Item>
+			<Title>Google Drive</Title>
+			<Description>Cloud Storage</Description>
+			<AppFile>Google Drive.app</AppFile>
+			<URL>https://dl.google.com/drive/installgoogledrive.dmg</URL>
+			<Version>1.25</Version>
+		</Item>
+		<Item>
+			<Title>DropBox</Title>
+			<Description>Cloud Storage</Description>
+			<AppFile>Dropbox.app</AppFile>
+			<URL>https://d1ilhw0800yew8.cloudfront.net/client/Dropbox%203.4.4.dmg</URL>
+			<Version>3.4.4</Version>
+		</Item>
+		<Item>
+			<Title>VLC</Title>
+			<Description>Media Player</Description>
+			<AppFile>VLC.app</AppFile>
+			<URL>http://videolan.mirror.liquidtelecom.com/vlc/2.2.0/macosx/vlc-2.2.0.dmg</URL>
+			<Version>2.2</Version>
+		</Item>
+		<Item>
+			<Title>Clementine</Title>
+			<Description>Music Player</Description>
+			<AppFile>Clementine.app</AppFile>
+			<URL>https://github.com/clementine-player/Clementine/releases/download/1.2.2/clementine-1.2.2.dmg</URL>
+			<Version>1.2</Version>
+		</Item>
+		<Item>
+			<Title>KODI</Title>
+			<Description>Media Center</Description>
+			<AppFile>Kodi.app</AppFile>
+			<URL>http://mirrors.kodi.tv/releases/osx/x86_64/kodi-15.1-Isengard-x86_64.dmg</URL>
+			<Version>15.1</Version>
+		</Item>
+		<Item>
+			<Title>Spotify</Title>
+			<Description>Music Streaming</Description>
+			<AppFile>Spotify.app</AppFile>
+			<URL>http://download.spotify.com/Spotify.dmg</URL>
+			<Version>0.9.15</Version>
+		</Item>
+		<Item>
+			<Title>Picasa</Title>
+			<Description>Photo Manager</Description>
+			<AppFile>Picasa.app</AppFile>
+			<URL>https://dl.google.com/dl/picasa/picasamac39.dmg</URL>
+			<Version>3.9</Version>
+		</Item>
+		<Item>
+			<Title>Gimp</Title>
+			<Description>Image Editor</Description>
+			<AppFile>GIMP.app</AppFile>
+			<URL>http://download.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.14.dmg</URL>
+			<Version>2.8</Version>
+		</Item>
+		<Item>
+			<Title>Darktable</Title>
+			<Description>Image Processor</Description>
+			<AppFile>darktable.app</AppFile>
+			<URL>https://github.com/darktable-org/darktable/releases/download/release-1.6.4/darktable-1.6.4.dmg</URL>
+			<Version>1.6.4</Version>
+		</Item>
+		<Item>
+			<Title>Inkscape</Title>
+			<Description>Vector Graphics Editor</Description>
+			<AppFile>Inkscape.app</AppFile>
+			<URL>https://inkscape.org/en/gallery/item/3896/Inkscape-0.91-1-x11-10.7-x86_64.dmg</URL>
+			<Version>0.91</Version>
+		</Item>
+		<Item>
+			<Title>Blender</Title>
+			<Description>3D Animation Suite</Description>
+			<AppFile>Blender</AppFile>
+			<URL>http://ftp.halifax.rwth-aachen.de/blender/release/Blender2.74/blender-2.74-OSX_10.6-x86_64.zip</URL>
+			<Version>2.74</Version>
+		</Item>
+		<Item>
+			<Title>Audacity</Title>
+			<Description>Audio Editor &amp; Recorder</Description>
+			<AppFile>Audacity</AppFile>
+			<URL>http://tenet.dl.sourceforge.net/project/audacity/audacity/2.1.0/audacity-macosx-ub-2.1.0.dmg</URL>
+			<Version>2.1.0</Version>
+		</Item>
+		<Item>
+			<Title>HandBrake</Title>
+			<Description>Video Transcoder</Description>
+			<AppFile>Handbrake.app</AppFile>
+			<URL>https://handbrake.fr/mirror/HandBrake-0.10.1-MacOSX.6_GUI_x86_64.dmg</URL>
+			<Version>0.10.1</Version>
+		</Item>
+		<Item>
+			<Title>Burn</Title>
+			<Description>CD / DVD Burner</Description>
+			<AppFile>Burn.localized</AppFile>
+			<URL>http://tenet.dl.sourceforge.net/project/burn-osx/Burn/2.5.1/burn251-64bit.zip</URL>
+			<Version>2.5.1</Version>
+		</Item>
+		<Item>
+			<Title>KeePassX</Title>
+			<Description>Password Manager</Description>
+			<AppFile>KeePassX.app</AppFile>
+			<URL>https://www.keepassx.org/releases/KeePassX-0.4.3.dmg</URL>
+			<Version>0.4.3</Version>
+		</Item>
+		<Item>
+			<Title>FileZilla</Title>
+			<Description>FTP Client</Description>
+			<AppFile>FileZilla.app</AppFile>
+			<URL>http://tenet.dl.sourceforge.net/project/filezilla/FileZilla_Client/3.12.0.2/FileZilla_3.12.0.2_macosx-x86.app.tar.bz2</URL>
+			<Version>3.12.2</Version>
+		</Item>
+		<Item>
+			<Title>Cyber Duck</Title>
+			<Description>FTP Client</Description>
+			<AppFile>Cyberduck.app</AppFile>
+			<URL>https://a48823c7ec3cf4539564-60c534a1284a12ce74ef84032e9b4e46.ssl.cf1.rackcdn.com/Cyberduck-4.6.5.zip</URL>
+			<Version>4.6.5</Version>
+		</Item>
+		<Item>
+			<Title>Transmission</Title>
+			<Description>BitTorrent Client</Description>
+			<AppFile>Transmission.app</AppFile>
+			<URL>https://transmission.cachefly.net/Transmission-2.84.dmg</URL>
+			<Version>2.84</Version>
+		</Item>
+		<Item>
+			<Title>Keka</Title>
+			<Description>File Archiver</Description>
+			<AppFile>Keka.app</AppFile>
+			<URL>http://www.kekaosx.com/release/Keka-1.0.4-intel.dmg</URL>
+			<Version>1.0.4</Version>
+		</Item>
+		<Item>
+			<Title>Synkron</Title>
+			<Description>Folder Synchronisation</Description>
+			<AppFile>Synkron.app</AppFile>
+			<URL>http://tenet.dl.sourceforge.net/project/synkron/synkron/1.6.2/Synkron-1.6.2-macx64.zip</URL>
+			<Version>1.6.2</Version>
+		</Item>
+		<Item>
+			<Title>BlueGriffon</Title>
+			<Description>Web Editor</Description>
+			<AppFile>BlueGriffon.app</AppFile>
+			<URL>http://bluegriffon.org/freshmeat/1.7.2/bluegriffon-1.7.2.mac.dmg</URL>
+			<Version>1.7.2</Version>
+		</Item>
+		<Item>
+			<Title>Brackets</Title>
+			<Description>Web Development</Description>
+			<AppFile>Brackets.app</AppFile>
+			<URL>https://github.com/adobe/brackets/releases/download/release-1.4%2Beb4/Brackets.1.4.Extract.dmg</URL>
+			<Version>1.4</Version>
+		</Item>
+		<Item>
+			<Title>Komodo Edit</Title>
+			<Description>Code Editor</Description>
+			<AppFile>Komodo Edit 9.app</AppFile>
+			<URL>http://downloads.activestate.com/Komodo/releases/9.2.0/Komodo-Edit-9.2.0-15966-macosx-x86_64.dmg</URL>
+			<Version>9.2</Version>
+		</Item>
+		<Item>
+			<Title>Sublime Text</Title>
+			<Description>Code Editor</Description>
+			<AppFile>Sublime Text.app</AppFile>
+			<URL>http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203083.dmg</URL>
+			<Version>3083</Version>
+		</Item>
+	</Software>
+</MacAfterInstall>

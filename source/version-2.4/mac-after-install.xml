@@ -12,8 +12,8 @@
 			<Title>Firefox</Title>
 			<Description>Browser</Description>
 			<AppFile>Firefox.app</AppFile>
-			<URL>https://download-installer.cdn.mozilla.net/pub/firefox/releases/46.0/mac/en-US/Firefox%2046.0.dmg</URL>
-			<Version>46.0</Version>
+			<URL>https://download-installer.cdn.mozilla.net/pub/firefox/releases/46.0.1/mac/en-US/Firefox%2046.0.1.dmg</URL>
+			<Version>46.0.1</Version>
 		</Item>
 		<Item>
 			<Title>Tor Browser</Title>
@@ -26,8 +26,8 @@
 			<Title>Thunderbird</Title>
 			<Description>eMail Client</Description>
 			<AppFile>Thunderbird.app</AppFile>
-			<URL>http://download-installer.cdn.mozilla.net/pub/thunderbird/releases/45.0/mac/en-US/Thunderbird%2045.0.dmg</URL>
-			<Version>45.0</Version>
+			<URL>http://download-installer.cdn.mozilla.net/pub/thunderbird/releases/45.1.0/mac/en-US/Thunderbird%2045.1.0.dmg</URL>
+			<Version>45.1.0</Version>
 		</Item>
 		<Item>
 			<Title>Vienna</Title>
@@ -68,8 +68,8 @@
 			<Title>LibreOffice</Title>
 			<Description>Office Suite</Description>
 			<AppFile>LibreOffice.app</AppFile>
-			<URL>http://tdf.saix.net/libreoffice/stable/5.1.2/mac/x86_64/LibreOffice_5.1.2_MacOS_x86-64.dmg</URL>
-			<Version>5.1.2</Version>
+			<URL>http://tdf.saix.net/libreoffice/stable/5.1.3/mac/x86_64/LibreOffice_5.1.3_MacOS_x86-64.dmg</URL>
+			<Version>5.1.3</Version>
 		</Item>
 		<Item>
 			<Title>Scribus</Title>
@@ -243,8 +243,8 @@
 			<Title>Sublime Text</Title>
 			<Description>Code Editor</Description>
 			<AppFile>Sublime Text.app</AppFile>
-			<URL>https://download.sublimetext.com/Sublime%20Text%20Build%203103.dmg</URL>
-			<Version>3103</Version>
+			<URL>https://download.sublimetext.com/Sublime%20Text%20Build%203114.dmg</URL>
+			<Version>3114</Version>
 		</Item>
 		<Item>
 			<Title>Atom</Title>
